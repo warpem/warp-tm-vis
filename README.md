@@ -35,9 +35,7 @@ currently stored on a remote server.
 
 Once you've provided the necessary options, you should see a GUI window pop up
 
-<p align="center">
-  <img src="./assets/gui-screenshot.png" alt="warp-tm-vis gui screenshot", width="800px">
-</p>
+![warp-tm-vis gui screenshot](./assets/gui-screenshot.png)
 
 ## Features
 - change between different tomograms
