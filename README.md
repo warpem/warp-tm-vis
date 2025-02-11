@@ -29,13 +29,13 @@ You should see the following
 ╰────────────────────────────────────────────────────────────────────╯
 ```
 
-Note: this is a graphical application which should be run locally, performance over ssh with XForwarding will likely be poor. 
-We recommend using an ftp client like [FileZilla](https://filezilla-project.org/) to download your data if it's 
-currently stored on a remote server.
-
 Once you've provided the necessary options, you should see a GUI window pop up
 
 ![warp-tm-vis gui screenshot](./assets/gui-screenshot.png)
+
+Note: this is a graphical application which should be run locally, performance over ssh with XForwarding will likely be poor. 
+We recommend using an ftp client like [FileZilla](https://filezilla-project.org/) to download your data if it's 
+currently stored on a remote server.
 
 ## Features
 - change between different tomograms
