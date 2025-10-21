@@ -4,9 +4,9 @@ from pathlib import Path
 import mrcfile
 import napari
 import napari.utils.notifications
-import rich
 import typer
 from magicgui import magicgui
+from rich.console import Console
 
 from .utils import (
     find_correlation_volume_file,
@@ -15,7 +15,7 @@ from .utils import (
     get_particle_positions_and_cc
 )
 
-console = rich.console.Console()
+console = Console()
 
 cli = typer.Typer(add_completion=False)
 
